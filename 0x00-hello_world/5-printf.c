@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - begining or entry of the code body
- * return - should return 0 if any error
+ * return:should return 0 if any error
  */
 int main(void)
 {

@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main -  entry point for program
- * Return: return 0 if error occurs
+/**
+ *main-entry point for program
+ *Return: return 0 if error occurs
  */
 int main(void)
 {

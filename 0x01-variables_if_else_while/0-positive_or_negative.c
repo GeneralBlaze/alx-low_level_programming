@@ -1,8 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
-/* main -  entry point for program */
+/* main -  entry point for program
+ * Return: return 0 if error occurs
+ */
 
 int main(void)
 {
@@ -21,4 +23,5 @@ int main(void)
 	else {
 		printf(n,"%d is positive\n");
 	}
+	return (0);
 }

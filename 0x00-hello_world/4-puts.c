@@ -1,6 +1,5 @@
 #include<stdio.h>
 /**
- * Task 4 for puts
  * main - beginning point of the code
  * Return: should return 0
  */

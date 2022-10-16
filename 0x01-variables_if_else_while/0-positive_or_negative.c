@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* 
+/*
  * main -  entry point for program
  * Return: return 0 if error occurs
  */
@@ -14,13 +14,12 @@ int main(void)
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
-
-	} else if (n == 0) 
+	} else if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
 	
-	else 
+	else
 	{
 		printf("%d is positive\n", n);
 	}

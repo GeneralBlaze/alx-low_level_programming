@@ -12,6 +12,6 @@ int main(void)
 		putchar (numberHex);
 	for (alphaHex = 'a'; alphaHex <= 'f'; alphaHex++)
 		putchar(alphaHex);
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }

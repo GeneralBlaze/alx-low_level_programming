@@ -2,6 +2,7 @@
 
 /**
  * _islower - check if alpahbet is lower
+ * @c: An input character
  * Return: return 1 if c is lower and 0 otherwise
  */
 

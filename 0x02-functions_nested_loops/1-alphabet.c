@@ -5,12 +5,12 @@
  * Return: 0 for errors
  */
 
-	void print_alphabet(void)
+void print_alphabet(void)
+{
+	char a;
+	for (a = 'a'; a <= 'z'; a++)
 	{
-		char a;
-		for (a = 'a'; a < 'z'; a++)
-		{
-			_putchar(a);
-			_putchar('\n');
-		}
+		_putchar(a);
 	}
+_putchar('\n');
+}

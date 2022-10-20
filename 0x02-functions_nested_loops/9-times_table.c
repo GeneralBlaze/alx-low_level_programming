@@ -18,7 +18,6 @@ void times_table(void)
 			product = row * column;
 
 			if (product <= 9)
-				_putchar('0');
 				_putchar(' ');
 			else
 			{

@@ -7,7 +7,6 @@
  */
 void positive_or_negative(int n)
 {
-	int n;
 
 	if (n < 0)
 	{

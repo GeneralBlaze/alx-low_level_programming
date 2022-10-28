@@ -3,7 +3,6 @@
 /**
  * reverse_array - a function that reverses the content of an array of integers
  * @a: An input integer
- * @b: An input integer
  * @n: no of elements in the array
  */
 

@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * *cap_string - function to change first letter of every word to capital letter
+ * *cap_string - function to change first
+ * letter of every word to capital letter
  * @str: string to check
  * Return: return the worked on striing
  */
@@ -12,14 +13,14 @@ char *cap_string(char *str)
 	int j = 0;
 	int k;
 	int new_i;
-	char seperators [] = {',',';','.','!','?','"','(',')','{',' ','}','\t','\n'};
+	char sep_1 [] = {',', ';', '.', '!', '?', '"', '(', ')', '{', ' ', '}'};
 
-	for(i=0; str[i]!='\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		while (seperators[j] != '\0')
+		while (sep_1[j] != '\0')
 		{
 			j++;
-			if (str[i] == seperators[j])
+			if (str[i] == sep_1[j])
 			{
 				i++;
 				new_i = i++;

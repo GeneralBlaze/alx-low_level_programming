@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -9,7 +10,7 @@
  */
 
 
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
 	int result;
 
@@ -19,7 +20,7 @@ int main(int argc, char *argv[] __attribute__((unused)))
 	}
 	else
 	{
-		result = atoi(argc[1]) * atoi(argc[2]);
+		result = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", result);
 	}
 	return (0);

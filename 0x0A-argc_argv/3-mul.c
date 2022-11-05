@@ -9,7 +9,7 @@
  */
 
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	int result;
 
@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		result = argc[1] * argc[2];
+		result = atoi(argc[1]) * atoi(argc[2]);
 		printf("%d\n", result);
 	}
 	return (0);

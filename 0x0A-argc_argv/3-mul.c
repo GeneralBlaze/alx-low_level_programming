@@ -6,7 +6,7 @@
  * main - entry point
  * @argc: input integer
  * @argv: input character
- * Return: Always 0
+ * Return: Always 0 when true and 1 when error
  */
 
 
@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 2)
 	{
+		printf("Error");
 		return (1);
 	}
 	else

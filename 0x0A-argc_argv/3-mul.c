@@ -10,11 +10,11 @@
  */
 
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int result;
+	int result, len = atoi(sizeof(argv)/sizeof(argv[1]));
 
-	if (argc < 2)
+	if (len < 2)
 	{
 		printf("Error\n");
 		return (1);
